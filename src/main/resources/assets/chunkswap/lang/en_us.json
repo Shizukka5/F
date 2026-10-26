@@ -1,0 +1,33 @@
+{
+	"chunkswap.config.title": "ChunkSwap settings",
+	"chunkswap.config.category.general": "General",
+
+	"chunkswap.config.enabled": "Enabled",
+	"chunkswap.config.enabled.tooltip": "Turns the whole effect on or off.",
+
+	"chunkswap.config.mode": "Swap mode",
+	"chunkswap.config.mode.tooltip": "What area turns into the broken block.",
+
+	"chunkswap.config.radius": "Radius (sphere / cube)",
+	"chunkswap.config.radius.tooltip": "Size of the area for the Sphere and Cube modes, in blocks.",
+
+	"chunkswap.config.thickness": "Layer thickness",
+	"chunkswap.config.thickness.tooltip": "How many layers are swapped in the Chunk layer mode.",
+
+	"chunkswap.config.random": "Random block",
+	"chunkswap.config.random.tooltip": "The area turns into a random block instead of the broken one.",
+
+	"chunkswap.config.chance": "Chance (%)",
+	"chunkswap.config.chance.tooltip": "Chance that a broken block triggers the effect.",
+
+	"chunkswap.config.speed": "Speed (ms per tick)",
+	"chunkswap.config.speed.tooltip": "More is faster but can cause lag. Less is smoother but slower.",
+
+	"chunkswap.mode.chunk": "Whole chunk",
+	"chunkswap.mode.layer": "Chunk layer",
+	"chunkswap.mode.sphere": "Sphere",
+	"chunkswap.mode.cube": "Cube",
+	"chunkswap.mode.above": "Chunk above the block",
+	"chunkswap.mode.below": "Chunk below the block",
+	"chunkswap.mode.checker": "Checkerboard chunk"
+}

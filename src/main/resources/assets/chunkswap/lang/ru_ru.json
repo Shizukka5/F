@@ -1,0 +1,33 @@
+{
+	"chunkswap.config.title": "Настройки ChunkSwap",
+	"chunkswap.config.category.general": "Основные",
+
+	"chunkswap.config.enabled": "Включён",
+	"chunkswap.config.enabled.tooltip": "Включает или выключает весь эффект.",
+
+	"chunkswap.config.mode": "Режим замены",
+	"chunkswap.config.mode.tooltip": "Какая область превращается в сломанный блок.",
+
+	"chunkswap.config.radius": "Радиус (сфера / куб)",
+	"chunkswap.config.radius.tooltip": "Размер области для режимов «Сфера» и «Куб», в блоках.",
+
+	"chunkswap.config.thickness": "Толщина слоя",
+	"chunkswap.config.thickness.tooltip": "Сколько слоёв заменяется в режиме «Слой чанка».",
+
+	"chunkswap.config.random": "Случайный блок",
+	"chunkswap.config.random.tooltip": "Область превращается в случайный блок, а не в сломанный.",
+
+	"chunkswap.config.chance": "Шанс (%)",
+	"chunkswap.config.chance.tooltip": "Шанс, что сломанный блок запустит эффект.",
+
+	"chunkswap.config.speed": "Скорость (мс за тик)",
+	"chunkswap.config.speed.tooltip": "Больше значит быстрее, но возможны лаги. Меньше значит плавнее, но медленнее.",
+
+	"chunkswap.mode.chunk": "Весь чанк",
+	"chunkswap.mode.layer": "Слой чанка",
+	"chunkswap.mode.sphere": "Сфера",
+	"chunkswap.mode.cube": "Куб",
+	"chunkswap.mode.above": "Чанк выше блока",
+	"chunkswap.mode.below": "Чанк ниже блока",
+	"chunkswap.mode.checker": "Чанк в шахматном порядке"
+}

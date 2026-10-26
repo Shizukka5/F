@@ -3,13 +3,17 @@
 	"id": "chunkswap",
 	"version": "${version}",
 	"name": "ChunkSwap",
-	"description": "Когда ломаешь блок, весь чанк с этим блоком превращается в сломанный блок.",
+	"description": "Break a block and the whole chunk turns into it. Many modes, random blocks, chance and an in-game settings menu.",
 	"authors": [],
 	"license": "MIT",
+	"icon": "assets/chunkswap/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"com.chunkswap.ChunkSwapMod"
+		],
+		"modmenu": [
+			"com.chunkswap.client.ModMenuIntegration"
 		]
 	},
 	"depends": {
@@ -17,5 +21,9 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": ">=15.0.0"
 	}
 }
